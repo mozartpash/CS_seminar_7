@@ -45,7 +45,7 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
 }
-Никита Родионов: int[,] Multiply(int[,] array1, int[,] array2)
+int[,] Multiply(int[,] array1, int[,] array2)
 {
     int[,] result = new int[array1.GetLength(0), array1.GetLength(1)];
     for (int i = 0; i < array1.GetLength(0); i++)
